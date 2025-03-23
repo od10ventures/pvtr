@@ -1,6 +1,6 @@
 vars:
   token: {{ GH_ACCESS_TOKEN }} # GH classic token with all repo: read permissions
-  owner: meshery
+  owner: od10ventures
 
 policy:
   catalogs:
