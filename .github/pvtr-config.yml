@@ -1,0 +1,30 @@
+vars:
+  token: {{ GH_ACCESS_TOKEN }} # GH classic token with all repo: read permissions
+  owner: meshery
+
+policy:
+  catalogs:
+    - OSPS_B
+  applicability:
+    - Maturity Level 1
+    - Maturity Level 2
+    - Maturity Level 3
+
+write-directory: evaluation_results
+services:
+  website:
+    plugin: github-repo
+    vars:
+      repo: website
+  odjobs:
+    plugin: github-repo
+    vars:
+      repo: odjobs
+  1ClickD:
+    plugin: github-repo
+    vars:
+      repo: 1ClickD
+  web:
+    plugin: github-repo
+    vars:
+      repo: web
