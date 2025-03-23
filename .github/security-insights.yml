@@ -4,12 +4,12 @@ header:
   last-reviewed: '2025-01-01'
   url: https://github.com/od10ventures/pvtr/.github/security-insights.yml
   comment: |
-    This file contains the security insights information for the Meshery project.
+    This file contains the security insights information for the OD10 project.
 project:
-  name: meshery
+  name: od10ventures
   administrators:
     - name: Sangram Rath 
-      affiliation: Meshery
+      affiliation: OD10
       email: sangram@od10.in
       primary: true
   documentation:
