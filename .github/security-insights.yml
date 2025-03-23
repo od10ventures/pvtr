@@ -41,3 +41,19 @@ project:
       email: sangram@od10.in
       primary: true
     security-policy: https://github.com/od10ventures/pvtr/blob/master/SECURITY.md
+
+repository:
+  url: https://github.com/od10ventures/website
+  status: active
+  accepts-change-request: true
+  accepts-automated-change-request: true
+  core-team:
+    - name:        Sangram Rath
+      affiliation: OD10
+      email:       sangram@od10.in
+      primary:     true
+  security:
+    assessments:
+      self:
+        comment: |
+          Self assessment has not yet been completed.
